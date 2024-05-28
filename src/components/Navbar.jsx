@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import {
   FaBars,
 } from 'react-icons/fa';
 import { IoIosClose } from "react-icons/io";
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -11,16 +11,25 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const handleScroll = () => {
+    window.scrollTo({
+      top:0,
+      behavior:'smooth',
+    })
+  }
+
   return (
     <nav className="fixed bg-gray-400 z-50 backdrop-filter backdrop-blur-md bg-opacity-10 w-full">
         <div className="max-w-5xl mx-auto px-4 ">
             <div className="flex items-center justify-between h-16 md:flex">
-            <span className="text-2xl text-white font-semibold">T-Minus Talent</span>
+            <Link to='/'>
+            <span className="text-2xl text-white font-semibold" onClick={handleScroll}>T-Minus Talent</span>
+            </Link>
                 <div className="flex space-x-4 text-white">
-                    <a href="#">Why T-Minus</a>
-                    <a href="#Stats">Employers</a>
-                    <a href="#Members">Job Seekers</a>
-                    <a href="#Contact">Contact Us</a>
+                    <Link to="/Tminus">Why T-Minus</Link>
+                    <Link to="/Employers">Employers</Link>
+                    <Link to="/Seekers">Job Seekers</Link>
+                    <Link to="/Contact">Contact Us</Link>
                 </div>
             </div>
         </div>
@@ -45,16 +54,19 @@ const Navbar = () => {
             </div>
             <ul className="h-full w-full text-center pt-12">
                 <li className='text-2xl py-8'>
-                    <a href='/'>Home</a>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li className='text-2xl py-8'>
-                    <a href='/'>Stats</a>
+                    <Link to='/Tminus'>Why T-Minus</Link>
                 </li>
                 <li className='text-2xl py-8'>
-                    <a href='/'>Members</a>
+                    <Link to='/Employers'>Employers</Link>
                 </li>
                 <li className='text-2xl py-8'>
-                    <a href='/'>Contact</a>
+                    <Link to='/Seekers'>Job Seekers</Link>
+                </li>
+                <li className='text-2xl py-8'>
+                    <Link to='/Contact'>Contact</Link>
                 </li>
             </ul>
                 
