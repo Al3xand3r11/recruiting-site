@@ -6,9 +6,15 @@ export default {
       fontFamily: {
         oswald: ['oswald ', 'sans-serif'],
       },
-    },
+      backgroundImage: {
+        'hero-image': 'url("assets/herobackground.png")'
+      },
+      colors: {
+        'grey': '#737373'
+      }
+      
   },
+},
   plugins: [],
 }
-
 

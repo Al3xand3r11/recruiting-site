@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html, body {
-    width: 102%;
+    width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
