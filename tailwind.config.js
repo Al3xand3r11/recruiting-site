@@ -7,7 +7,9 @@ export default {
         oswald: ['oswald ', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-image': 'url("assets/herobackground.png")'
+        'hero-image': 'url("assets/herobackground.png")',
+        'top-section': 'url(assets/washington.png)',
+        'bottom-section': 'url(assets/crowd.png)',
       },
       colors: {
         'grey': '#737373'
