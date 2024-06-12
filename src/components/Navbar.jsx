@@ -23,9 +23,9 @@ const Navbar = () => {
         <div className="max-w-5xl mx-auto px-4 ">
             <div className="flex items-center justify-between h-16 md:flex">
             <Link to='/'>
-            <span className="text-2xl text-white font-semibold" onClick={handleScroll}>T-Minus Talent</span>
+            <span className="text-2xl text-gray-700 font-semibold" onClick={handleScroll}>T-Minus Talent</span>
             </Link>
-                <div className="flex space-x-4 text-white">
+                <div className="flex space-x-4 text-gray-700">
                     <Link to="/Tminus">Why T-Minus</Link>
                     <Link to="/Employers">Employers</Link>
                     <Link to="/Seekers">Job Seekers</Link>

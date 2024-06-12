@@ -13,6 +13,11 @@ export default {
       },
       colors: {
         'grey': '#737373'
+      },
+      height: {
+        'md': '60px',
+        'lg': '700px', 
+        'xl': '850px',
       }
       
   },
