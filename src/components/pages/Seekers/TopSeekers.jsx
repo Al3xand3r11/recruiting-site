@@ -1,6 +1,6 @@
 const TopSeekers = () => {
     return (
-        <div className="h-xl bg-gray-700">
+        <div className="h-xl bg-teal">
         
         </div>
     )

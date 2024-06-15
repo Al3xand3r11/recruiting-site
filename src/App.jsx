@@ -5,7 +5,6 @@ import ContentBreak from './components/ContentBreak'
 import InfoSection from './components/InfoSection'
 import SecondSection from './components/SecondSection'
 import BigContentBreak from './components/BigContentBreak'
-import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 
 function App() {
@@ -20,8 +19,6 @@ function App() {
       <BigContentBreak/>
       <SecondSection/>
       <ContentBreak/>
-      <BigContentBreak/>
-      <ContactSection/>
       <Footer/>
       </>
   )

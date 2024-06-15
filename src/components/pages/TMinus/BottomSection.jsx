@@ -1,6 +1,6 @@
 const BottomSection = () => {
     return (
-        <div className="bg-grey h-screen">
+        <div className="bg-customblue h-screen">
         </div>
     )
 }

@@ -12,7 +12,10 @@ export default {
         'bottom-section': 'url(assets/crowd.png)',
       },
       colors: {
-        'grey': '#737373'
+        'grey': '#737373',
+        'yellow': '#EFCA08',
+        'customblue': '#BBDEF0',
+        'teal': '#00A6A6',
       },
       height: {
         'md': '60px',

@@ -5,7 +5,7 @@ const HeroSection = () => {
         <div className='bg-hero-image w-full h-screen bg-cover bg-center content-center'>
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 pt-128">
                 <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Progressive Minded Recruiting</h1>
-                <p class="mb-8 text-lg font-normal text-black lg:text-xl sm:px-16 xl:px-48 ">Partner With an Agency that Understands Your Needs</p>
+                <p class="mb-8 text-lg font-large text-white lg:text-xl sm:px-16 xl:px-48 ">Partner With an Agency that Understands Your Needs</p>
                 <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                     <Link to='/Seekers' class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white border rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                         Job Seekers
