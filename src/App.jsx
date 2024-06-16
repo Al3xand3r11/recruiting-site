@@ -4,7 +4,6 @@ import HeroSection from './components/HeroSection'
 import ContentBreak from './components/ContentBreak'
 import InfoSection from './components/InfoSection'
 import SecondSection from './components/SecondSection'
-import BigContentBreak from './components/BigContentBreak'
 import Footer from './components/Footer'
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
       <HeroSection/>
       <ContentBreak/>
       <InfoSection/>
-      <BigContentBreak/>
+      <ContentBreak/>
       <SecondSection/>
       <ContentBreak/>
       <Footer/>

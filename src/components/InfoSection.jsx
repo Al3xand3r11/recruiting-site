@@ -22,18 +22,6 @@ const InfoSection = () => {
                         ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
                         faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
                         Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
                         </p>
                         <Link to='/Seekers' class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border-black rounded-lg hover:bg-teal focus:ring-4 focus:ring-blue bg-blue-700 ">
                             Read more
@@ -52,18 +40,6 @@ const InfoSection = () => {
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Employers</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
-
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
                         Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
                         ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
@@ -93,17 +69,6 @@ const InfoSection = () => {
                         faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
                         Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
                         </p>
                         <Link to='/TMinus' class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border-black rounded-lg hover:bg-teal focus:ring-4 focus:ring-blue bg-blue-700 ">
                             Read more

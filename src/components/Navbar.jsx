@@ -4,6 +4,7 @@ import {
 } from 'react-icons/fa';
 import { IoIosClose } from "react-icons/io";
 import { Link } from 'react-router-dom'
+import Logo from '../assets/Logo.svg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -22,9 +23,12 @@ const Navbar = () => {
     <nav className="fixed bg-gray-400 z-50 backdrop-filter backdrop-blur-md bg-opacity-10 w-full">
         <div className="max-w-5xl mx-auto px-4 ">
             <div className="flex items-center justify-between h-16 md:flex">
-            <Link to='/'>
+            <div className='flex flex-row'>
+            <Link to='/' className='flex-row flex'>
+            <img src={Logo} width={30} height={30} className='pr-2'/>
             <span className="text-2xl text-gray-700 font-semibold" onClick={handleScroll}>T-Minus Talent</span>
             </Link>
+            </div>
                 <div className="flex space-x-4 text-gray-700">
                     <Link to="/Tminus">Why T-Minus</Link>
                     <Link to="/Employers">Employers</Link>
