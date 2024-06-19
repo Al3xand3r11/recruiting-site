@@ -7,8 +7,9 @@ import { Link } from 'react-router-dom'
 const SecondSection = () => {
     return (
         <div className='bg-white w-full h-auto bg-cover bg-center '>
+            <div className='grid grid-cols-1'>
             <div classname='flex flex-col text-center mx-auto max-w-screen-xl'>
-            <h1 className='text-4xl font-extrabold place-self-center lg:text-6xl text-center'>
+            <h1 className='text-4xl font-extrabold place-self-center lg:text-6xl text-center pt-48'>
                 Services
             </h1>
             </div>
@@ -59,6 +60,7 @@ const SecondSection = () => {
                         Contact Us
                     </Link> 
                 </div>                
+            </div>
             </div>
         </div>
     )
