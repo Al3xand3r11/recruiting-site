@@ -1,6 +1,6 @@
 const BottomSection = () => {
     return (
-    <div className='bg-bottom-section w-full h-screen bg-cover bg-center'>
+    <div className='bg-bottom-section w-full h-auto bg-cover bg-center'>
         <div class=" px-4 mx-auto max-w-screen-md  rounded-lg">
             <div className="p-4">
                 <div>
