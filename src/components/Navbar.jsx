@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className="fixed bg-gray-400 z-50 backdrop-filter backdrop-blur-md bg-opacity-10 w-full">
         <div className="max-w-5xl mx-auto px-4 ">
-            <div className="flex items-center justify-between h-16 md:flex">
+            <div className="flex items-center justify-between h-16 hidden md:flex">
             <div className='flex flex-row'>
             <Link to='/' className='flex-row flex'>
             <img src={Logo} width={30} height={30} className='pr-2'/>
@@ -37,8 +37,8 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-        <div onClick={handleNav} className="md:hidden z-10">
-            <FaBars size={30} className="mr-4 cursor-ponter pl-2" />
+        <div onClick={handleNav} className="md:hidden z-20">
+            <FaBars size={40} className="mr-4 cursor-ponter pl-2 pt-4" />
         </div>
         {/* Mobile Menu */}
         <div 
@@ -48,6 +48,7 @@ const Navbar = () => {
                 : "absolute top-0 h-screen left-[-100%] ease-in"
             }
         >
+          { nav &&
             <div
               className="hidden max-lg:block fixed right-0  px-8 py-4 cursor-pointer"
               onClick={() => {
@@ -56,6 +57,7 @@ const Navbar = () => {
             >
               <IoIosClose className="text-4xl md:hidden" />
             </div>
+          }
             <ul className="h-full w-full text-center pt-12">
                 <li className='text-2xl py-8'>
                     <Link to='/'>Home</Link>
