@@ -2,7 +2,7 @@ import Terra from '../../../assets/terra.jpeg'
 
 const TopSection = () => {
     return (
-        <div className="bg-white h-lg">
+        <div className="bg-white h-screen">
             <div className="flex flex-row pt-48 pl-8 pr-8">
                 <div className='flex-initial w-8/12 pr-8'>
                     <h2 className='font-bold text-3xl'>

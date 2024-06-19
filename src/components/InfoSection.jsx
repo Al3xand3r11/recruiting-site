@@ -16,12 +16,10 @@ const InfoSection = () => {
                         <a href="#">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Job Seekers</h5>
                         </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 pb-6">
+                        When it comes to seeking employment, everyone has a different journey. Here at TMinus Talent we want to make that journey simple. 
+                        Assisting with landing a role within sectors such as Engineering and Construction or even connecting you with those looking for assistance 
+                        on personal services such as child care and catering. TMinus will help you step into the next phase of your career
                         </p>
                         <Link to='/Seekers' class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border-black rounded-lg hover:bg-teal focus:ring-4 focus:ring-blue bg-blue-700 ">
                             Read more
@@ -39,12 +37,10 @@ const InfoSection = () => {
                         <a href="#">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Employers</h5>
                         </a>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 pb-6">
+                        Here at TMinus Talent, it is our goal to ensure that employers are connected with the right candidate in a quick and efficient matter. 
+                        TMinus handles professions ranging from Administrative and Corporate work such as in Human relations, to IT & Software and much more. 
+                        Whatever your hiring needs looks like. TMinus can accommodate to help you find the best candidate for the role
                         </p>
                         <Link to='/Employers' class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border-black rounded-lg hover:bg-teal focus:ring-4 focus:ring-blue bg-blue-700 ">
                             Read more
@@ -63,11 +59,9 @@ const InfoSection = () => {
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Mission</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at. 
-                        Hendrerit gravida rutrum quisque non tellus orci. Vel elit scelerisque mauris pellentesque. Iaculis eu non diam phasellus vestibulum lorem sed risus 
-                        ultricies. Id cursus metus aliquam eleifend mi. Massa placerat duis ultricies lacus sed turpis tincidunt id. Potenti nullam ac tortor vitae purus 
-                        faucibus ornare suspendisse. Urna nunc id cursus metus aliquam eleifend mi in. Etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum. 
-                        Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Aenean sed adipiscing diam donec adipiscing.
+                        Whether you’re an employer looking for staff or a job seeker waiting to take their next step, TMinus has the expertise, resources and connections to make the process seamless. 
+                        We will go above and beyond to make sure that on both side of the isle, your needs are met. We have what it takes to conquer the ever changing technology field, realize the importance of administrative staffing,
+                        and connect you with those personal service professionals as well
 
                         </p>
                         <Link to='/TMinus' class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border-black rounded-lg hover:bg-teal focus:ring-4 focus:ring-blue bg-blue-700 ">

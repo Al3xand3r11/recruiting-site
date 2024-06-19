@@ -1,6 +1,6 @@
 import Navbar from "../../Navbar";
 import TopSection from "./TopSection";
-import BottomSection from "./BottomSection";
+import Footer from "../../Footer";
 
 
 const TMinus = () => {
@@ -8,7 +8,7 @@ const TMinus = () => {
         <>
             <Navbar/>
             <TopSection/>
-            <BottomSection/>
+            <Footer/>
         </>
     )
 

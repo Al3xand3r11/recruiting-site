@@ -10,6 +10,8 @@ export default {
         'hero-image': 'url("assets/herobackground.png")',
         'top-section': 'url(assets/washington.png)',
         'bottom-section': 'url(assets/crowd.png)',
+        'employer-image': 'url("assets/employer.png")',
+        'seeker-image': 'url("assets/seekers.png")'
       },
       colors: {
         'grey': '#737373',
