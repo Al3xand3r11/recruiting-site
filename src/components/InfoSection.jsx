@@ -2,6 +2,7 @@ import job from '../assets/job.jpeg'
 import hiring from '../assets/hiring.jpeg'
 import about from '../assets/about.jpeg'
 import { Link } from 'react-router-dom'
+import { FaArrowRight } from 'react-icons/fa'
 
 
 const InfoSection = () => {
@@ -23,9 +24,9 @@ const InfoSection = () => {
                         </p>
                         <Link to='/Seekers' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border-black rounded-lg hover:bg-teal focus:ring-4 focus:ring-blue bg-blue-700 ">
                             Read more
-                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
+                            <div className='pl-2'>
+                                <FaArrowRight/>
+                            </div> 
                         </Link>
                     </div>
                 </div>
@@ -44,9 +45,9 @@ const InfoSection = () => {
                         </p>
                         <Link to='/Employers' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border-black rounded-lg hover:bg-teal focus:ring-4 focus:ring-blue bg-blue-700 ">
                             Read more
-                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
+                            <div className='pl-2'>
+                                <FaArrowRight/>
+                            </div> 
                         </Link>
                     </div>
                 </div>
@@ -66,9 +67,9 @@ const InfoSection = () => {
                         </p>
                         <Link to='/TMinus' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border-black rounded-lg hover:bg-teal focus:ring-4 focus:ring-blue bg-blue-700 ">
                             Read more
-                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
+                            <div className='pl-2'>
+                                <FaArrowRight/>
+                            </div> 
                         </Link>
                     </div>
                 </div>

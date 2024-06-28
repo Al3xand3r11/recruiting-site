@@ -8,7 +8,7 @@ const SecondSection = () => {
     return (
         <div className='bg-white w-full h-auto bg-cover bg-center '>
             <div className='grid grid-cols-1'>
-            <div classname='flex flex-col text-center mx-auto max-w-screen-xl'>
+            <div className='flex flex-col text-center mx-auto max-w-screen-xl'>
             <h1 className='text-4xl font-extrabold place-self-center lg:text-6xl text-center pt-48'>
                 Services
             </h1>
