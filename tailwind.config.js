@@ -7,11 +7,11 @@ export default {
         oswald: ['oswald ', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-image': 'url("assets/herobackground.png")',
-        'top-section': 'url(assets/washington.png)',
-        'bottom-section': 'url(assets/crowd.png)',
-        'employer-image': 'url("assets/employer.png")',
-        'seeker-image': 'url("assets/seekers.png")'
+        'hero-image': 'url("assets/herobackground.jpeg")',
+        'top-section': 'url(assets/washington.jpeg)',
+        'bottom-section': 'url(assets/crowd.jpeg)',
+        'employer-image': 'url("assets/employer.jpeg")',
+        'seeker-image': 'url("assets/seekers.jpeg")'
       },
       colors: {
         'grey': '#737373',

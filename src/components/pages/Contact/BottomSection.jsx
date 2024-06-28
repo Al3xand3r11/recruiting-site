@@ -18,7 +18,7 @@ const BottomSection = () => {
         e.preventDefault();
 
         const serviceID = 'service_pma3dql'
-        const templateID = 'template_pzhml7q'
+        const templateID = 'template_e8b1k5m'
         const publicKey = '7rv-9u7Zg-84Mkoh-'
 
         const templateParams = {
@@ -84,6 +84,7 @@ const BottomSection = () => {
                             value={business}
                             onChange={(e) => setBusiness(e.target.value)}
                             required>
+                            <option value="" selected="selected" hidden="hidden">Choose here</option>
                             <option value="seeker">Looking for your next opportunity</option>
                             <option value="employer">Looking for staffing services</option>
                             <option value="neither">Neither</option>
@@ -97,6 +98,7 @@ const BottomSection = () => {
                             value={sector}
                             onChange={(e) => setSector(e.target.value)} 
                             >
+                            <option value="" selected="selected" hidden="hidden">Choose here</option>
                             <option value="software">IT and Software</option>
                             <option value="corporate">Administrative and Corporate</option>
                             <option value="construction">Engineering and Construction</option>
