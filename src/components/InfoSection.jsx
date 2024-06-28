@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 
 const InfoSection = () => {
     return (
-        <div className='bg-white w-full h-screen bg-cover bg-center '>
-            <div className="flex flex-row  justify-around">
+        <div className='bg-white w-full h-auto md:h-auto bg-cover bg-center '>
+            <div className=" flex-row justify-around grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow ">
                     <a href="#">
                         <img class="rounded-t-lg" src={job} alt="" />
