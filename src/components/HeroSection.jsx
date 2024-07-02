@@ -5,8 +5,8 @@ import  Logo from '../assets/CompanyLogo.png'
 const HeroSection = () => {
     return (
         <div className='bg-hero-image w-full h-screen bg-cover bg-center content-center'>
-            <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 pt-128">
-                <div className='flex justify-center items-center'>
+            <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+                <div className='flex justify-center items-center pb-36'>
                 <img src={Logo}/>
                 </div>
                 <p className="mb-8 text-lg font-large font-bold lg:text-xl sm:px-16 xl:px-48 ">Partner With an Agency that Understands Your Needs</p>
