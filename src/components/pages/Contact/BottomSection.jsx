@@ -18,7 +18,7 @@ const BottomSection = () => {
         e.preventDefault();
 
         const serviceID = 'service_pma3dql'
-        const templateID = 'template_e8b1k5m'
+        const templateID = 'template_wrc6l1a'
         const publicKey = '7rv-9u7Zg-84Mkoh-'
 
         const templateParams = {
