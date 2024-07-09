@@ -23,7 +23,7 @@ const BottomSection = () => {
 
         const templateParams = {
             from_name: name,
-            from_email: email,
+            email: email,
             to_name: 'Terra',
             business: business,
             sector: sector,
