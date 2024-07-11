@@ -1,6 +1,7 @@
 import React, {useRef} from "react";
 import emailjs from "@emailjs/browser"
 import { useState } from "react";
+import { IoIosClose } from "react-icons/io";
 
 const BottomSection = () => {
 
@@ -9,9 +10,17 @@ const BottomSection = () => {
     const [sector, setSector] = useState()
     const [business, setBusiness] = useState()
     const [message, setMessage] = useState('')
+    const [showModal, setShowModal] = useState(false);
+    const [isError, setIsError] = useState(false)
 
     const form = useRef();
 
+    const handleScroll = () => {
+        window.scrollTo({
+          top:0,
+          behavior:'smooth',
+        })
+      }
     
 
     const sendEmail = (e) => {
@@ -38,8 +47,14 @@ const BottomSection = () => {
             setSector('');
             setBusiness('');
             setMessage('');
+            handleScroll();
+            setIsError(false)
+            setShowModal(true)
         }).catch((error) => {
             console.error('Error sending email', error);
+            handleScroll();
+            setIsError(true)
+            setShowModal(true)
         });
     }
 
@@ -48,6 +63,34 @@ const BottomSection = () => {
     <div className='bg-bottom-section w-full h-auto bg-cover bg-center'>
         <div className=" px-4 mx-auto max-w-screen-md  rounded-lg">
             <div className="p-4">
+                {showModal && (
+                    <div>
+                    { !isError ? (
+                <div className="p-4 mb-4 text-green-800 border border-green-900 rounded-lg bg-green-300 flex flex-row justify-between">
+                <div>
+                <p>Your form has been sent successfully. T-Minus Talent will reach out to you soon!</p>
+                </div>
+                <div onClick={() => {
+                setShowModal(false);
+                }}>
+                    <IoIosClose className="text-2xl"/>
+                </div>
+                </div>
+                ) : (
+                    <div className="p-4 mb-4 text-red-800 border border-red-900 rounded-lg bg-red-300 flex flex-row justify-between">
+                    <div>
+                    <p>There was an error in submitting your form!</p>
+                    </div>
+                    <div onClick={() => {
+                    setShowModal(false);
+                    }}>
+                        <IoIosClose className="text-2xl"/>
+                    </div>
+                    </div>
+                )} 
+                    </div>
+                )}
+                
                 <div>
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">Contact Us</h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-white sm:text-xl">Whether you are a job seeker or an employer, start your relationship with T Minus Talent today</p>
